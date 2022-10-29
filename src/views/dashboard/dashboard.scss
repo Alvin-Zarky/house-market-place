@@ -1,0 +1,85 @@
+
+.description{
+  margin-top: 30px;
+  span{
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.context-page{
+  .image-slider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    .image-per-slide{
+      width: 100%;
+      height: 390px;
+      overflow: hidden;
+      object-fit: cover;
+      object-position: center;
+      position: relative;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .sub-title{
+        position: absolute;
+        top:35%;
+        left:0px;
+        .title-image{
+          background-color: rgba(0,0,0,0.5);
+          padding: 10px 20px;
+          margin-bottom: 10px;
+          span{
+            font-weight: 600;
+            font-size: 19px;
+            color:white;
+          }
+        }
+        .price-image{
+          width: 190px !important;
+          background-color: white;
+          padding: 10px 20px;
+          border-radius: 25px;
+          position: static;
+          span{
+            font-size: 18px;
+            color:black;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  .loading-loader{
+    position: absolute !important;
+    top:0%;
+    left: 50%;
+    z-index: 5;
+  }
+  .no-data{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    img{
+      height: 110px;
+      margin-bottom: 7px;
+    }
+  }
+  .box-category{
+    @extend .description;
+    .image-type{
+      height: 250px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        object-position: center;
+      }
+    }
+  }
+}

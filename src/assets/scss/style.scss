@@ -1,0 +1,29 @@
+@import url("../../../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("../../../node_modules/slick-carousel/slick/slick.css");
+@import url("../../../node_modules/slick-carousel/slick/slick-theme.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+@import "./variable.scss";
+@import "./mixin.scss";
+
+html, body{
+  font-family: $font-body !important;
+  background-color: $bg-body-color;
+}
+.contain-page{
+  width:500px;
+  padding: 10px;
+  margin: 50px auto;
+  h1{
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+.overview-page{
+  margin: 50px;
+  padding: 10px;
+  h1{
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
